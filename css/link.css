@@ -1,0 +1,45 @@
+.flink{
+    clear: both;
+}
+
+.linkdiv {
+    /*float: left;*/
+    width: 396px;
+    height: 100px;
+    display: inline-block;
+}
+
+.linkdiv:hover{
+    background-color:deepskyblue;
+}
+.linkdiv li a{
+    color: #4d2e2e;
+}
+
+
+
+.linkdiv li a img{
+    float: left;
+    margin: 10px;
+    width: 49px;
+    height: 49px;
+}
+.linkdiv li a h4{
+    float: right;
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+    display: inline-block;
+    font-size: 20px;
+}
+.linkdiv li a h4 span{
+    font-size: 15px;
+    color: #2B2E37;
+}
+
+.class-name {
+    font-size: 40px;
+}
+.flink-desc {
+    font-size: 35px;
+}

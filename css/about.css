@@ -1,0 +1,29 @@
+/* banner区域 */
+.banner1 {
+    height: auto;
+    background-color: #D5CDB9FF;
+}
+
+/*.banner1 .w {*/
+/*    height: 642px;*/
+/*    !*height: 805px;*!*/
+/*    !*background: url(images/banner.png) no-repeat top center;*!*/
+/*}*/
+
+.bannerimg{
+    height: 642px;
+    width: 1200px;
+}
+
+.midimg{
+    height: 642px;
+    width: 1200px;
+}
+
+.entry-content {
+    width: 1200px;
+    margin: auto;
+}
+
+
+

@@ -1,0 +1,301 @@
+/* banner区域 */
+.banner1 {
+    height: 421px;
+    background-color: #D5CDB9FF;
+}
+
+.banner1 .w {
+    height: 421px;
+}
+
+.subnav {
+    float: left;
+    width: 420px;
+    height: 421px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.subnav ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+}
+
+.subnav ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.subnav ul li a span {
+    float: left;
+}
+
+.subnav ul li a:hover {
+    color: #00a4ff;
+}
+
+.bannerimg{
+    float: left;
+    height: 842px;
+    width: 780px;
+}
+
+.midimg{
+    height: 421px;
+    width: 1200px;
+}
+
+
+
+
+/*轮播图*/
+.banner{
+    height: 421px;
+    width: 780px;
+    border: 0px ;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.banner .banner_pic .pic{
+    display: none;
+}
+.banner .banner_pic current{
+    /* 图片显示出来 */
+    display: block;
+}
+
+
+
+
+.banner .banner_pic img:hover{
+    height: 421px;
+    width: 780px;
+}
+.banner .banner_pic img{
+    height: 421px;
+    width: 780px;
+}
+
+.banner ol{
+    position:absolute;
+    left: 500px;
+    top: 620px;
+}
+.banner ol li{
+    float: left;
+    width: 100px;
+    height: 10px;
+    margin-left: 10px;
+    list-style: none;
+    border-radius: 15px;
+}
+.banner ol .but{
+    border: 1px solid #eee;
+}
+.banner ol .current{
+    background: #fe0048;
+    border: 1px solid #fe0048;
+}
+
+.course {
+    float: right;
+    width: 230px;
+    height: 421px;
+    background-color: #fff;
+}
+
+.course h2 {
+    height: 48px;
+    background-color: #9a774e;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.bd {
+    padding: 0 20px;
+}
+
+.bd ul li {
+    padding: 14px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.bd ul li h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.bd ul li p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.bd .more {
+    display: block;
+    height: 38px;
+    border: 1px solid #857e74;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 38px;
+    color: #857e74;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.categories {
+    height: 60px;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0px 20px 20px -15px rgba(0, 0, 0, 0.1);
+    line-height: 60px;
+}
+
+.categories h3{
+    float: left;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #86c9c1;
+}
+
+.categories ul {
+    float: left;
+    margin-left: 30px;
+}
+
+.categories ul li {
+    float: left;
+}
+
+.categories ul li a {
+    padding: 0 30px;
+    font-size: 16px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.mod {
+    float: right;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #857e74;
+}
+
+.box {
+    margin-top: 30px;
+}
+
+.box-hd {
+    height: 45px;
+}
+
+.box-hd h3 a{
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.box-hd a {
+    float: right;
+    font-size: 12px;
+    color: #a5a5a5;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+/* 把 li 的父亲 ul 修改的足够宽一行能装开 5 个盒子就不会换行了，
+    这样的方式有效的解决了每行最后一个盒子右边距的问题 */
+.box-bd ul {
+    width: 1225px;
+}
+
+.box-bd ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    background-color: #fff;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+.box-bd ul li img {
+    width: 100%;
+}
+
+.box-bd ul li h4 {
+    margin: 20px 20px 20px 25px;
+    font-size: 14px;
+    color: #050505;
+    font-weight: 400;
+}
+
+.box-bd .info {
+    margin: 0 20px 0 25px;
+    font-size: 12px;
+    color: #999;
+}
+
+.box-bd .info span {
+    color: #ff7c2d;
+}
+
+/* footer 模块 */
+.footer {
+    height: 415px;
+    background-color: #fff;
+}
+
+.footer .w {
+    /* 注意：此处对 footer 里的 w 设置 margin 会发生外边距塌陷，
+    因为，w 包含在 footer 中，w 的上外边距为 35px，footer 的外边距为 0px，
+    此时发生外边距塌陷，父元素塌陷较大的外边距值 35px
+    /* margin-top: 35px; */
+    padding-top: 35px;
+    /* padding 不会发生边距合并 */
+}
+
+.copyright {
+    float: left;
+}
+
+.copyright p {
+    font-size: 12px;
+    color: #666;
+    margin: 20px 0 15px 0;
+}
+
+.copyright .app {
+    display: block;
+    width: 118px;
+    height: 33px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 33px;
+    color: #00a4ff;
+    font-size: 16px;
+}
+
+.links {
+    float: right;
+}
+
+.links dl {
+    float: left;
+    margin-left: 100px;
+}
+
+.links dl dt {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.links dl dd a {
+    color: #333;
+    font-size: 12px;
+}
